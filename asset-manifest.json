@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.870a75cc.css",
+    "main.js": "/static/js/main.478285cc.js",
+    "static/js/787.83771236.chunk.js": "/static/js/787.83771236.chunk.js",
+    "static/media/K4C1.png": "/static/media/K4C1.e34cd00d5130f238cb72.png",
+    "static/media/Montserrat-Regular.woff2": "/static/media/Montserrat-Regular.8b56391ed36ea95337c6.woff2",
+    "static/media/Montserrat-Medium.woff2": "/static/media/Montserrat-Medium.d6bbb7c3c86aa8edcd0a.woff2",
+    "static/media/Montserrat-SemiBold.woff2": "/static/media/Montserrat-SemiBold.1d679c8257a6a9caa9bd.woff2",
+    "static/media/logo.svg": "/static/media/logo.91c754f029c7e69e7970d1f289406fc1.svg",
+    "static/media/logofooter.svg": "/static/media/logofooter.c64c98a92884462df09e24375c00db92.svg",
+    "static/media/vk.svg": "/static/media/vk.873cd6f92ac28905caacf71ca0ce497d.svg",
+    "static/media/phone.svg": "/static/media/phone.c2c0fa14091315c9ff87db8a788d47e0.svg",
+    "static/media/twitter.svg": "/static/media/twitter.5f7082b37a22b967a5ac8a1e062f2575.svg",
+    "static/media/youtube.svg": "/static/media/youtube.d9a15edd9f5aee45228c6aa5941884cc.svg",
+    "static/media/user.svg": "/static/media/user.aa7453220654eca6b2656ff8b0390cbe.svg",
+    "index.html": "/index.html",
+    "static/media/mail.svg": "/static/media/mail.6962a75efd582542433c7ff09fc14cb7.svg",
+    "static/media/telegram.svg": "/static/media/telegram.291cdc953bf23858b250932e5e0f5b3e.svg",
+    "static/media/chevron-down.svg": "/static/media/chevron-down.afd1c0f4ed7a5ccedccda72ca3cc8e62.svg",
+    "static/media/minus.svg": "/static/media/minus.9ecc9580154ffa385f70983a5edccb17.svg",
+    "main.870a75cc.css.map": "/static/css/main.870a75cc.css.map",
+    "main.478285cc.js.map": "/static/js/main.478285cc.js.map",
+    "787.83771236.chunk.js.map": "/static/js/787.83771236.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.870a75cc.css",
+    "static/js/main.478285cc.js"
+  ]
+}
