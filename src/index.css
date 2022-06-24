@@ -1,0 +1,14 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+body {
+  background: #FFFFFF;
+  color: #888888;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}

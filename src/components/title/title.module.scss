@@ -1,0 +1,97 @@
+.title {
+  margin: 0;
+  width: 100%;
+  padding: 188px 0 64px 137px;
+  box-sizing: border-box;
+  color: #ffffff;
+  background-image: url("../../images/K4C1.png"),
+    linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.h1 {
+  margin: 0 0 24px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  max-width: 574px;
+}
+
+.text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 513px;
+}
+
+.box {
+  margin: 32px 0 114px 0;
+  display: flex;
+  width: 162px;
+  height: 52px;
+  background: #ffffff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.box:hover .box_hidden {
+  width: 100%;
+}
+
+.box_hidden {
+  margin: 0;
+  width: 0;
+  height: 100%;
+  display: flex;
+  background: #3a3ebc;
+  border-radius: 10px;
+  transition: width 0.4s linear;
+}
+
+.button {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0050ef;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.5s;
+  transition-delay: 0.2s;
+}
+
+.button:hover {
+  background-color: #c1dcee;
+  cursor: pointer;
+}
+
+.slider_box {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    column-gap: 6px;
+}
+
+.slider {
+    width: 29px;
+    height: 3px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.slider_active {
+    background: #FFFFFF;
+}
