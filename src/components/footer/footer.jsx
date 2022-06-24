@@ -9,12 +9,12 @@ export const Footer = () => {
     return (
         <footer className={footer.footer}>
             <div className={footer.footer_container}>
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" className={footer.footer_logo} />
                 <nav className={footer.footer_nav}>
-                    <a href="#" className={footer.footer_link}>Готовые решения</a>
-                    <a href="#" className={footer.footer_link}>О нас</a>
-                    <a href="#" className={footer.footer_link}>Блог</a>
-                    <a href="#" className={footer.footer_link}>Контакты</a>
+                    <a href="#" className={`${footer.footer_link} ${footer.footer_link_decisions}`}>Готовые решения</a>
+                    <a href="#" className={`${footer.footer_link} ${footer.footer_link_about}`}>О нас</a>
+                    <a href="#" className={`${footer.footer_link} ${footer.footer_link_blog}`}>Блог</a>
+                    <a href="#" className={`${footer.footer_link} ${footer.footer_link_contacts}`}>Контакты</a>
                 </nav>
                 <span className={footer.footer_about}>© ООО «Лого», 2008—2022</span>
                 <ul className={footer.footer_icons}>

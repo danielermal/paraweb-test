@@ -4,6 +4,9 @@
     width: 100%;
     background: #011846;
     box-sizing: border-box;
+    @media screen and (max-width: 760px) {
+        padding: 24px 16px;
+    }
 }
 
 .footer_container {
@@ -14,6 +17,25 @@
     gap: 64px;
     align-items: center;
     max-width: 1164px;
+    @media screen and (max-width: 760px) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        justify-content: start;
+        align-items: flex-start;
+    }
+}
+
+.footer_logo {
+    margin: 0 auto 0 0;
+    width: 193.13px;
+    height: 48px;
+    @media screen and (max-width: 760px) {
+        width: 128.75px;
+        height: 32px;
+        order: 1;
+        margin: 0;
+    }
 }
 
 .footer_nav {
@@ -21,6 +43,13 @@
     padding: 0;
     column-gap: 48px;
     margin-left: auto;
+    @media screen and (max-width: 760px) {
+        order: 2;
+        display: grid;
+        grid-template-columns: min-content min-content;
+        gap: 16px 40px;
+        margin: 0 auto 0 0;
+    }
 }
 
 .footer_link {
@@ -29,6 +58,34 @@
     line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: opacity .3s linear;
+    &:hover {
+        opacity: 0.3;
+    }
+}
+
+.footer_link_decisions {
+    @media screen and (max-width: 760px) {
+        order: 1;
+    }
+}
+
+.footer_link_about {
+    @media screen and (max-width: 760px) {
+        order: 3;
+    }
+}
+
+.footer_link_blog {
+    @media screen and (max-width: 760px) {
+        order: 2;
+    }
+}
+
+.footer_link_contacts {
+    @media screen and (max-width: 760px) {
+        order: 4;
+    }
 }
 
 .footer_about {
@@ -37,6 +94,10 @@
     font-size: 14px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.8);
+    @media screen and (max-width: 760px) {
+        order: 4;
+        margin-right: auto;
+    }
 }
 
 .footer_icons {
@@ -46,9 +107,17 @@
     align-items: center;
     padding: 0;
     list-style-type: none;
+    @media screen and (max-width: 760px) {
+        order: 3;
+        margin: 0 auto 0 0;
+    } 
 }
 
 .footer_icon {
     width: 20px;
     height: 20px;
+    transition: opacity .3s linear;
+    &:hover {
+        opacity: 0.3;
+    }
 }
